@@ -1,0 +1,20 @@
+{
+  "name": "Nika",
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "image": "https://raw.githubusercontent.com/Coder-Nika/nika-api/main/nika.jpg",
+  "active": true,
+  "services": [
+    {
+      "name": "MCP",
+      "version": "2025-06-18",
+      "endpoint": "https://nika-api-ww13.vercel.app/api/nika",
+      "mcpTools": ["search", "analyze", "generate", "answer"],
+      "mcpPrompts": ["search", "analyze", "generate", "answer"],
+      "mcpResources": ["ask", "query", "explain"]
+    }
+  ],
+  "description": "Nika is a Web3 AI agent focused on DeFi and on-chain insights.",
+  "x402support": false,
+  "registrations": [],
+  "supportedTrusts": ["crypto-economic", "reputation"]
+}
